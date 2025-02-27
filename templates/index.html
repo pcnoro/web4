@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Reset Challenge</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <!-- Login Form -->
+                        {% if not reset and not flag %}
+                        <h2 class="card-title text-center mb-4">Login</h2>
+                        {% if error %}
+                        <div class="alert alert-danger">{{ error }}</div>
+                        {% endif %}
+                        <form method="POST" action="/">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Login</button>
+                        </form>
+                        <p class="text-center mt-3">
+                            <a href="/reset" class="text-decoration-none">Forgot Password?</a>
+                        </p>
+                        {% endif %}
+
+                        <!-- Reset Password Form -->
+                        {% if reset and not flag %}
+                        <h2 class="card-title text-center mb-4">Reset Password</h2>
+                        {% if reset_error %}
+                        <div class="alert alert-danger">{{ reset_error }}</div>
+                        {% endif %}
+                        <p>Answer one of the following security questions to reset your password:</p>
+                        <form method="POST" action="/reset">
+                            <div class="mb-3">
+                                <label for="question" class="form-label">Select a question:</label>
+                                <select class="form-select" id="question" name="question" required>
+                                    <option value="pet">What is the name of your first pet?</option>
+                                    <option value="color">What color is your mother like?</option>
+                                    <option value="city">In which city were you born?</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="answer" class="form-label">Your answer:</label>
+                                <input type="text" class="form-control" id="answer" name="answer" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Submit</button>
+                        </form>
+                        <p class="text-center mt-3">
+                            <a href="/login" class="text-decoration-none">Back to Login</a>
+                        </p>
+                        {% endif %}
+
+                        <!-- Flag Display -->
+                        {% if flag %}
+                        <h2 class="card-title text-center mb-4">Password Reset Successful!</h2>
+                        <div class="alert alert-success">
+                            <strong>Flag:</strong> {{ flag }}
+                        </div>
+                        <p class="text-center mt-3">
+                            <a href="/login" class="text-decoration-none">Back to Login</a>
+                        </p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

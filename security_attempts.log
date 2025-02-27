@@ -1,0 +1,538 @@
+2025-01-11 03:24:43,100 -  * Debugger is active!
+2025-01-11 03:24:43,100 -  * Debugger PIN: 411-655-211
+2025-01-11 03:24:44,115 -  * Detected change in '/home/boogeyman/Desktop/created_challenges/web4/app.py', reloading
+2025-01-11 03:24:44,376 -  * Debugger is active!
+2025-01-11 03:24:44,377 -  * Debugger PIN: 411-655-211
+2025-01-11 03:26:15,850 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-11 03:26:15,851 - [33mPress CTRL+C to quit[0m
+2025-01-11 03:26:15,854 -  * Restarting with stat
+2025-01-11 03:26:16,031 -  * Debugger is active!
+2025-01-11 03:26:16,032 -  * Debugger PIN: 411-655-211
+2025-01-11 03:26:26,436 - 127.0.0.1 - - [11/Jan/2025 03:26:26] "GET / HTTP/1.1" 200 -
+2025-01-11 03:26:26,623 - 127.0.0.1 - - [11/Jan/2025 03:26:26] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-11 03:26:26,630 - 127.0.0.1 - - [11/Jan/2025 03:26:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 03:26:30,168 - 127.0.0.1 - - [11/Jan/2025 03:26:30] "GET /reset HTTP/1.1" 200 -
+2025-01-11 03:26:30,584 - 127.0.0.1 - - [11/Jan/2025 03:26:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 03:26:30,587 - 127.0.0.1 - - [11/Jan/2025 03:26:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 03:27:24,720 - Attempt by 127.0.0.1: Question='color', Answer='mm'
+2025-01-11 03:27:24,720 - 127.0.0.1 - - [11/Jan/2025 03:27:24] "POST /reset HTTP/1.1" 200 -
+2025-01-11 03:27:24,809 - 127.0.0.1 - - [11/Jan/2025 03:27:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 03:27:24,814 - 127.0.0.1 - - [11/Jan/2025 03:27:24] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 03:27:27,500 - Attempt by 127.0.0.1: Question='color', Answer='mmm'
+2025-01-11 03:27:27,500 - 127.0.0.1 - - [11/Jan/2025 03:27:27] "POST /reset HTTP/1.1" 200 -
+2025-01-11 03:27:27,802 - 127.0.0.1 - - [11/Jan/2025 03:27:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 03:27:27,810 - 127.0.0.1 - - [11/Jan/2025 03:27:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 03:27:30,283 - Attempt by 127.0.0.1: Question='color', Answer='mmmm'
+2025-01-11 03:27:30,284 - 127.0.0.1 - - [11/Jan/2025 03:27:30] "POST /reset HTTP/1.1" 200 -
+2025-01-11 03:27:30,405 - 127.0.0.1 - - [11/Jan/2025 03:27:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 03:27:30,418 - 127.0.0.1 - - [11/Jan/2025 03:27:30] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 03:27:42,075 - Attempt by 127.0.0.1: Question='color', Answer='^^'
+2025-01-11 03:27:42,076 - 127.0.0.1 - - [11/Jan/2025 03:27:42] "POST /reset HTTP/1.1" 200 -
+2025-01-11 03:27:42,174 - 127.0.0.1 - - [11/Jan/2025 03:27:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 03:27:42,179 - 127.0.0.1 - - [11/Jan/2025 03:27:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 03:27:44,964 - Attempt by 127.0.0.1: Question='color', Answer='ppppp'
+2025-01-11 03:27:44,965 - 127.0.0.1 - - [11/Jan/2025 03:27:44] "POST /reset HTTP/1.1" 200 -
+2025-01-11 03:27:45,054 - 127.0.0.1 - - [11/Jan/2025 03:27:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 03:27:45,060 - 127.0.0.1 - - [11/Jan/2025 03:27:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 03:29:40,520 - 127.0.0.1 - - [11/Jan/2025 03:29:40] "GET / HTTP/1.1" 200 -
+2025-01-11 03:29:40,663 - 127.0.0.1 - - [11/Jan/2025 03:29:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 03:29:40,668 - 127.0.0.1 - - [11/Jan/2025 03:29:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 03:29:49,958 - 127.0.0.1 - - [11/Jan/2025 03:29:49] "POST / HTTP/1.1" 200 -
+2025-01-11 03:29:50,060 - 127.0.0.1 - - [11/Jan/2025 03:29:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 03:29:50,070 - 127.0.0.1 - - [11/Jan/2025 03:29:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 03:53:26,011 -  * Detected change in '/home/boogeyman/Desktop/created_challenges/web4/app.py', reloading
+2025-01-11 03:53:26,057 -  * Restarting with stat
+2025-01-11 03:53:26,237 -  * Debugger is active!
+2025-01-11 03:53:26,239 -  * Debugger PIN: 411-655-211
+2025-01-11 03:53:57,477 -  * Detected change in '/home/boogeyman/Desktop/created_challenges/web4/app.py', reloading
+2025-01-11 03:53:57,521 -  * Restarting with stat
+2025-01-11 03:53:57,712 -  * Debugger is active!
+2025-01-11 03:53:57,713 -  * Debugger PIN: 411-655-211
+2025-01-11 06:47:53,753 -  * Detected change in '/home/boogeyman/Desktop/created_challenges/web4/app.py', reloading
+2025-01-11 06:47:53,800 -  * Restarting with stat
+2025-01-11 06:47:54,039 -  * Debugger is active!
+2025-01-11 06:47:54,039 -  * Debugger PIN: 411-655-211
+2025-01-11 06:56:03,657 -  * Detected change in '/home/boogeyman/Desktop/created_challenges/web4/app.py', reloading
+2025-01-11 06:56:03,702 -  * Restarting with stat
+2025-01-11 06:56:03,902 -  * Debugger is active!
+2025-01-11 06:56:03,903 -  * Debugger PIN: 411-655-211
+2025-01-11 06:56:10,945 -  * Detected change in '/home/boogeyman/Desktop/created_challenges/web4/app.py', reloading
+2025-01-11 06:56:10,996 -  * Restarting with stat
+2025-01-11 06:56:11,221 -  * Debugger is active!
+2025-01-11 06:56:11,222 -  * Debugger PIN: 411-655-211
+2025-01-11 06:56:15,878 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-11 06:56:15,878 - [33mPress CTRL+C to quit[0m
+2025-01-11 06:56:15,879 -  * Restarting with stat
+2025-01-11 06:56:16,058 -  * Debugger is active!
+2025-01-11 06:56:16,061 -  * Debugger PIN: 411-655-211
+2025-01-11 06:56:22,551 - 127.0.0.1 - - [11/Jan/2025 06:56:22] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-01-11 06:56:29,263 - 127.0.0.1 - - [11/Jan/2025 06:56:29] "GET / HTTP/1.1" 200 -
+2025-01-11 06:56:29,428 - 127.0.0.1 - - [11/Jan/2025 06:56:29] "GET /static/css/styles2.css HTTP/1.1" 200 -
+2025-01-11 06:56:29,449 - 127.0.0.1 - - [11/Jan/2025 06:56:29] "GET /static/js/my.js HTTP/1.1" 200 -
+2025-01-11 06:56:29,776 - 127.0.0.1 - - [11/Jan/2025 06:56:29] "GET /static/Iconlight.png HTTP/1.1" 200 -
+2025-01-11 06:56:29,803 - 127.0.0.1 - - [11/Jan/2025 06:56:29] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 06:57:00,029 - 127.0.0.1 - - [11/Jan/2025 06:57:00] "[35m[1mGET /robots.txt HTTP/1.1[0m" 500 -
+2025-01-11 06:57:00,116 - 127.0.0.1 - - [11/Jan/2025 06:57:00] "GET /robots.txt?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-01-11 06:57:00,117 - 127.0.0.1 - - [11/Jan/2025 06:57:00] "GET /robots.txt?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-01-11 06:57:00,147 - 127.0.0.1 - - [11/Jan/2025 06:57:00] "GET /robots.txt?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-01-11 06:57:00,153 - 127.0.0.1 - - [11/Jan/2025 06:57:00] "GET /robots.txt?__debugger__=yes&cmd=resource&f=console.png&s=ufA1Bq2josJbVFkpRBGa HTTP/1.1" 200 -
+2025-01-11 06:58:06,504 -  * Detected change in '/home/boogeyman/Desktop/created_challenges/web4/app.py', reloading
+2025-01-11 06:58:06,553 -  * Restarting with stat
+2025-01-11 06:58:06,768 -  * Debugger is active!
+2025-01-11 06:58:06,769 -  * Debugger PIN: 411-655-211
+2025-01-11 06:58:14,161 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-11 06:58:14,161 - [33mPress CTRL+C to quit[0m
+2025-01-11 06:58:14,162 -  * Restarting with stat
+2025-01-11 06:58:14,330 -  * Debugger is active!
+2025-01-11 06:58:14,332 -  * Debugger PIN: 411-655-211
+2025-01-11 06:58:20,184 - 127.0.0.1 - - [11/Jan/2025 06:58:20] "GET /robots.txt HTTP/1.1" 200 -
+2025-01-11 06:58:22,834 - 127.0.0.1 - - [11/Jan/2025 06:58:22] "GET /robots.txt HTTP/1.1" 200 -
+2025-01-11 07:00:05,667 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-11 07:00:05,667 - [33mPress CTRL+C to quit[0m
+2025-01-11 07:00:05,667 -  * Restarting with stat
+2025-01-11 07:00:05,843 -  * Debugger is active!
+2025-01-11 07:00:05,846 -  * Debugger PIN: 411-655-211
+2025-01-11 07:00:09,120 - 127.0.0.1 - - [11/Jan/2025 07:00:09] "GET /robots.txt HTTP/1.1" 200 -
+2025-01-11 07:00:18,600 - 127.0.0.1 - - [11/Jan/2025 07:00:18] "GET /admin HTTP/1.1" 200 -
+2025-01-11 07:00:20,823 - 127.0.0.1 - - [11/Jan/2025 07:00:20] "GET / HTTP/1.1" 200 -
+2025-01-11 07:00:21,118 - 127.0.0.1 - - [11/Jan/2025 07:00:21] "[36mGET /static/css/styles2.css HTTP/1.1[0m" 304 -
+2025-01-11 07:00:21,120 - 127.0.0.1 - - [11/Jan/2025 07:00:21] "[36mGET /static/Iconlight.png HTTP/1.1[0m" 304 -
+2025-01-11 07:00:21,128 - 127.0.0.1 - - [11/Jan/2025 07:00:21] "[36mGET /static/js/my.js HTTP/1.1[0m" 304 -
+2025-01-11 07:00:21,186 - 127.0.0.1 - - [11/Jan/2025 07:00:21] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 07:00:24,723 - 127.0.0.1 - - [11/Jan/2025 07:00:24] "GET /secret HTTP/1.1" 200 -
+2025-01-11 07:00:27,178 - 127.0.0.1 - - [11/Jan/2025 07:00:27] "GET / HTTP/1.1" 200 -
+2025-01-11 07:00:27,577 - 127.0.0.1 - - [11/Jan/2025 07:00:27] "[36mGET /static/css/styles2.css HTTP/1.1[0m" 304 -
+2025-01-11 07:00:27,587 - 127.0.0.1 - - [11/Jan/2025 07:00:27] "[36mGET /static/js/my.js HTTP/1.1[0m" 304 -
+2025-01-11 07:00:27,592 - 127.0.0.1 - - [11/Jan/2025 07:00:27] "[36mGET /static/Iconlight.png HTTP/1.1[0m" 304 -
+2025-01-11 07:00:27,627 - 127.0.0.1 - - [11/Jan/2025 07:00:27] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 07:00:30,781 - 127.0.0.1 - - [11/Jan/2025 07:00:30] "GET /flag HTTP/1.1" 200 -
+2025-01-11 07:00:37,609 - 127.0.0.1 - - [11/Jan/2025 07:00:37] "GET /login HTTP/1.1" 200 -
+2025-01-11 07:00:37,758 - 127.0.0.1 - - [11/Jan/2025 07:00:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 07:00:37,762 - 127.0.0.1 - - [11/Jan/2025 07:00:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 07:00:42,578 - 127.0.0.1 - - [11/Jan/2025 07:00:42] "GET /reset HTTP/1.1" 200 -
+2025-01-11 07:00:42,750 - 127.0.0.1 - - [11/Jan/2025 07:00:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 07:00:42,755 - 127.0.0.1 - - [11/Jan/2025 07:00:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 07:13:27,546 -  * Detected change in '/home/boogeyman/Desktop/created_challenges/web4/app.py', reloading
+2025-01-11 07:13:27,609 -  * Restarting with stat
+2025-01-11 07:13:28,052 -  * Debugger is active!
+2025-01-11 07:13:28,053 -  * Debugger PIN: 411-655-211
+2025-01-11 07:13:32,570 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-11 07:13:32,570 - [33mPress CTRL+C to quit[0m
+2025-01-11 07:13:32,571 -  * Restarting with stat
+2025-01-11 07:13:32,832 -  * Debugger is active!
+2025-01-11 07:13:32,833 -  * Debugger PIN: 411-655-211
+2025-01-11 07:17:18,109 -  * Detected change in '/home/boogeyman/Desktop/created_challenges/web4/app.py', reloading
+2025-01-11 07:17:18,183 -  * Restarting with stat
+2025-01-11 07:17:18,454 -  * Debugger is active!
+2025-01-11 07:17:18,455 -  * Debugger PIN: 411-655-211
+2025-01-11 07:18:06,757 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-11 07:18:06,758 - [33mPress CTRL+C to quit[0m
+2025-01-11 07:18:06,759 -  * Restarting with stat
+2025-01-11 07:18:07,035 -  * Debugger is active!
+2025-01-11 07:18:07,035 -  * Debugger PIN: 411-655-211
+2025-01-11 07:18:15,708 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-11 07:18:15,708 - [33mPress CTRL+C to quit[0m
+2025-01-11 07:18:15,709 -  * Restarting with stat
+2025-01-11 07:18:15,979 -  * Debugger is active!
+2025-01-11 07:18:15,980 -  * Debugger PIN: 411-655-211
+2025-01-11 07:20:32,501 - 127.0.0.1 - - [11/Jan/2025 07:20:32] "GET / HTTP/1.1" 200 -
+2025-01-11 07:20:32,680 - 127.0.0.1 - - [11/Jan/2025 07:20:32] "GET /static/css/styles2.css HTTP/1.1" 200 -
+2025-01-11 07:20:32,729 - 127.0.0.1 - - [11/Jan/2025 07:20:32] "GET /static/js/my.js HTTP/1.1" 200 -
+2025-01-11 07:20:32,733 - 127.0.0.1 - - [11/Jan/2025 07:20:32] "GET /static/Iconlight.png HTTP/1.1" 200 -
+2025-01-11 07:20:32,848 - 127.0.0.1 - - [11/Jan/2025 07:20:32] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 07:20:33,031 - 127.0.0.1 - - [11/Jan/2025 07:20:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-11 07:22:16,980 - 127.0.0.1 - - [11/Jan/2025 07:22:16] "GET / HTTP/1.1" 200 -
+2025-01-11 07:22:17,183 - 127.0.0.1 - - [11/Jan/2025 07:22:17] "GET /static/css/styles2.css HTTP/1.1" 200 -
+2025-01-11 07:22:17,189 - 127.0.0.1 - - [11/Jan/2025 07:22:17] "GET /static/Iconlight.png HTTP/1.1" 200 -
+2025-01-11 07:22:17,193 - 127.0.0.1 - - [11/Jan/2025 07:22:17] "GET /static/js/my.js HTTP/1.1" 200 -
+2025-01-11 07:22:17,384 - 127.0.0.1 - - [11/Jan/2025 07:22:17] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 07:22:17,570 - 127.0.0.1 - - [11/Jan/2025 07:22:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-11 07:22:21,727 - 127.0.0.1 - - [11/Jan/2025 07:22:21] "GET / HTTP/1.1" 200 -
+2025-01-11 07:22:21,876 - 127.0.0.1 - - [11/Jan/2025 07:22:21] "[36mGET /static/css/styles2.css HTTP/1.1[0m" 304 -
+2025-01-11 07:22:21,935 - 127.0.0.1 - - [11/Jan/2025 07:22:21] "[36mGET /static/Iconlight.png HTTP/1.1[0m" 304 -
+2025-01-11 07:22:21,937 - 127.0.0.1 - - [11/Jan/2025 07:22:21] "[36mGET /static/js/my.js HTTP/1.1[0m" 304 -
+2025-01-11 07:22:22,058 - 127.0.0.1 - - [11/Jan/2025 07:22:22] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 07:29:00,500 - 127.0.0.1 - - [11/Jan/2025 07:29:00] "GET / HTTP/1.1" 200 -
+2025-01-11 07:29:00,699 - 127.0.0.1 - - [11/Jan/2025 07:29:00] "GET /static/css/styles2.css HTTP/1.1" 200 -
+2025-01-11 07:29:00,714 - 127.0.0.1 - - [11/Jan/2025 07:29:00] "GET /static/js/my.js HTTP/1.1" 200 -
+2025-01-11 07:29:00,716 - 127.0.0.1 - - [11/Jan/2025 07:29:00] "GET /static/Iconlight.png HTTP/1.1" 200 -
+2025-01-11 07:29:00,985 - 127.0.0.1 - - [11/Jan/2025 07:29:00] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 07:29:01,296 - 127.0.0.1 - - [11/Jan/2025 07:29:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-11 07:36:28,946 - 127.0.0.1 - - [11/Jan/2025 07:36:28] "GET /admin HTTP/1.1" 200 -
+2025-01-11 07:36:30,958 - 127.0.0.1 - - [11/Jan/2025 07:36:30] "GET / HTTP/1.1" 200 -
+2025-01-11 07:36:31,230 - 127.0.0.1 - - [11/Jan/2025 07:36:31] "[36mGET /static/css/styles2.css HTTP/1.1[0m" 304 -
+2025-01-11 07:36:31,232 - 127.0.0.1 - - [11/Jan/2025 07:36:31] "[36mGET /static/Iconlight.png HTTP/1.1[0m" 304 -
+2025-01-11 07:36:31,236 - 127.0.0.1 - - [11/Jan/2025 07:36:31] "[36mGET /static/js/my.js HTTP/1.1[0m" 304 -
+2025-01-11 07:36:31,379 - 127.0.0.1 - - [11/Jan/2025 07:36:31] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 07:47:26,995 - 127.0.0.1 - - [11/Jan/2025 07:47:26] "GET / HTTP/1.1" 200 -
+2025-01-11 07:47:27,184 - 127.0.0.1 - - [11/Jan/2025 07:47:27] "GET /static/css/styles2.css HTTP/1.1" 200 -
+2025-01-11 07:47:27,242 - 127.0.0.1 - - [11/Jan/2025 07:47:27] "GET /static/js/my.js HTTP/1.1" 200 -
+2025-01-11 07:47:27,251 - 127.0.0.1 - - [11/Jan/2025 07:47:27] "GET /static/Iconlight.png HTTP/1.1" 200 -
+2025-01-11 07:47:27,434 - 127.0.0.1 - - [11/Jan/2025 07:47:27] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 07:47:27,702 - 127.0.0.1 - - [11/Jan/2025 07:47:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-11 07:48:12,234 - 127.0.0.1 - - [11/Jan/2025 07:48:12] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-01-11 07:49:35,771 - 127.0.0.1 - - [11/Jan/2025 07:49:35] "GET / HTTP/1.1" 200 -
+2025-01-11 07:50:00,189 - 127.0.0.1 - - [11/Jan/2025 07:50:00] "GET / HTTP/1.1" 200 -
+2025-01-11 07:52:03,270 - 127.0.0.1 - - [11/Jan/2025 07:52:03] "GET /static/css/styles2.css HTTP/1.1" 200 -
+2025-01-11 07:52:24,182 - 127.0.0.1 - - [11/Jan/2025 07:52:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-11 07:54:58,060 - 127.0.0.1 - - [11/Jan/2025 07:54:58] "GET /robots.txt HTTP/1.1" 200 -
+2025-01-11 07:55:43,524 - 127.0.0.1 - - [11/Jan/2025 07:55:43] "GET /login HTTP/1.1" 200 -
+2025-01-11 07:55:43,682 - 127.0.0.1 - - [11/Jan/2025 07:55:43] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-11 07:55:43,734 - 127.0.0.1 - - [11/Jan/2025 07:55:43] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-01-11 07:56:27,351 - 127.0.0.1 - - [11/Jan/2025 07:56:27] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-01-11 07:56:54,523 - 127.0.0.1 - - [11/Jan/2025 07:56:54] "GET /secret HTTP/1.1" 200 -
+2025-01-11 07:57:07,274 - 127.0.0.1 - - [11/Jan/2025 07:57:07] "GET /flag HTTP/1.1" 200 -
+2025-01-11 07:57:16,718 - 127.0.0.1 - - [11/Jan/2025 07:57:16] "GET / HTTP/1.1" 200 -
+2025-01-11 07:57:16,868 - 127.0.0.1 - - [11/Jan/2025 07:57:16] "[36mGET /static/css/styles2.css HTTP/1.1[0m" 304 -
+2025-01-11 07:57:16,911 - 127.0.0.1 - - [11/Jan/2025 07:57:16] "[36mGET /static/js/my.js HTTP/1.1[0m" 304 -
+2025-01-11 07:57:16,915 - 127.0.0.1 - - [11/Jan/2025 07:57:16] "[36mGET /static/Iconlight.png HTTP/1.1[0m" 304 -
+2025-01-11 07:57:17,021 - 127.0.0.1 - - [11/Jan/2025 07:57:17] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 07:57:28,175 - 127.0.0.1 - - [11/Jan/2025 07:57:28] "[33mGET /* HTTP/1.1[0m" 404 -
+2025-01-11 07:57:54,800 - 127.0.0.1 - - [11/Jan/2025 07:57:54] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-01-11 07:58:09,730 - 127.0.0.1 - - [11/Jan/2025 07:58:09] "[33mGET /hidden HTTP/1.1[0m" 404 -
+2025-01-11 07:58:59,658 - 127.0.0.1 - - [11/Jan/2025 07:58:59] "[33mGET /login/admin HTTP/1.1[0m" 404 -
+2025-01-11 07:59:13,473 - 127.0.0.1 - - [11/Jan/2025 07:59:13] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-01-11 07:59:20,463 - 127.0.0.1 - - [11/Jan/2025 07:59:20] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-01-11 07:59:28,028 - 127.0.0.1 - - [11/Jan/2025 07:59:28] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-01-11 07:59:36,958 - 127.0.0.1 - - [11/Jan/2025 07:59:36] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-01-11 07:59:51,054 - 127.0.0.1 - - [11/Jan/2025 07:59:51] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-01-11 07:59:58,106 - 127.0.0.1 - - [11/Jan/2025 07:59:58] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2025-01-11 08:00:31,105 - 127.0.0.1 - - [11/Jan/2025 08:00:31] "[33mGET /.hidden HTTP/1.1[0m" 404 -
+2025-01-11 08:00:40,969 - 127.0.0.1 - - [11/Jan/2025 08:00:40] "GET /reset HTTP/1.1" 200 -
+2025-01-11 08:00:41,125 - 127.0.0.1 - - [11/Jan/2025 08:00:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:00:41,154 - 127.0.0.1 - - [11/Jan/2025 08:00:41] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:00:56,638 - Attempt by 127.0.0.1: Question='color', Answer='blue'
+2025-01-11 08:00:56,638 - 127.0.0.1 - - [11/Jan/2025 08:00:56] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:00:56,824 - 127.0.0.1 - - [11/Jan/2025 08:00:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:00:56,882 - 127.0.0.1 - - [11/Jan/2025 08:00:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:01:01,366 - Attempt by 127.0.0.1: Question='pet', Answer='white'
+2025-01-11 08:01:01,367 - 127.0.0.1 - - [11/Jan/2025 08:01:01] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:01:01,513 - 127.0.0.1 - - [11/Jan/2025 08:01:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:01:01,571 - 127.0.0.1 - - [11/Jan/2025 08:01:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:01:06,462 - Attempt by 127.0.0.1: Question='pet', Answer='black'
+2025-01-11 08:01:06,464 - 127.0.0.1 - - [11/Jan/2025 08:01:06] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:01:06,617 - 127.0.0.1 - - [11/Jan/2025 08:01:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:01:06,673 - 127.0.0.1 - - [11/Jan/2025 08:01:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:01:12,033 - Attempt by 127.0.0.1: Question='pet', Answer='orange'
+2025-01-11 08:01:12,034 - 127.0.0.1 - - [11/Jan/2025 08:01:12] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:01:12,190 - 127.0.0.1 - - [11/Jan/2025 08:01:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:01:12,206 - 127.0.0.1 - - [11/Jan/2025 08:01:12] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:01:25,630 - Attempt by 127.0.0.1: Question='pet', Answer='yellow'
+2025-01-11 08:01:25,630 - 127.0.0.1 - - [11/Jan/2025 08:01:25] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:01:25,779 - 127.0.0.1 - - [11/Jan/2025 08:01:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:01:25,801 - 127.0.0.1 - - [11/Jan/2025 08:01:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:01:36,312 - Attempt by 127.0.0.1: Question='color', Answer='black'
+2025-01-11 08:01:36,313 - 127.0.0.1 - - [11/Jan/2025 08:01:36] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:01:36,456 - 127.0.0.1 - - [11/Jan/2025 08:01:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:01:36,508 - 127.0.0.1 - - [11/Jan/2025 08:01:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:01:46,294 - Attempt by 127.0.0.1: Question='color', Answer='yellow'
+2025-01-11 08:01:46,295 - 127.0.0.1 - - [11/Jan/2025 08:01:46] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:01:46,448 - 127.0.0.1 - - [11/Jan/2025 08:01:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:01:46,465 - 127.0.0.1 - - [11/Jan/2025 08:01:46] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:01:53,214 - Attempt by 127.0.0.1: Question='color', Answer='white'
+2025-01-11 08:01:53,215 - 127.0.0.1 - - [11/Jan/2025 08:01:53] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:01:53,361 - 127.0.0.1 - - [11/Jan/2025 08:01:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:01:53,398 - 127.0.0.1 - - [11/Jan/2025 08:01:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:01:58,885 - Attempt by 127.0.0.1: Question='color', Answer='orange'
+2025-01-11 08:01:58,886 - 127.0.0.1 - - [11/Jan/2025 08:01:58] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:01:59,048 - 127.0.0.1 - - [11/Jan/2025 08:01:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:01:59,056 - 127.0.0.1 - - [11/Jan/2025 08:01:59] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:02:08,835 - Attempt by 127.0.0.1: Question='city', Answer='fes'
+2025-01-11 08:02:08,835 - 127.0.0.1 - - [11/Jan/2025 08:02:08] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:02:08,991 - 127.0.0.1 - - [11/Jan/2025 08:02:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:02:09,004 - 127.0.0.1 - - [11/Jan/2025 08:02:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:02:13,860 - Attempt by 127.0.0.1: Question='pet', Answer='casa'
+2025-01-11 08:02:13,861 - 127.0.0.1 - - [11/Jan/2025 08:02:13] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:02:14,007 - 127.0.0.1 - - [11/Jan/2025 08:02:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:02:14,030 - 127.0.0.1 - - [11/Jan/2025 08:02:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:02:24,989 - Attempt by 127.0.0.1: Question='pet', Answer='peek'
+2025-01-11 08:02:24,990 - 127.0.0.1 - - [11/Jan/2025 08:02:24] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:02:25,149 - 127.0.0.1 - - [11/Jan/2025 08:02:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:02:25,166 - 127.0.0.1 - - [11/Jan/2025 08:02:25] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:02:36,963 - Attempt by 127.0.0.1: Question='pet', Answer='secret'
+2025-01-11 08:02:36,964 - 127.0.0.1 - - [11/Jan/2025 08:02:36] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:02:37,117 - 127.0.0.1 - - [11/Jan/2025 08:02:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:02:37,136 - 127.0.0.1 - - [11/Jan/2025 08:02:37] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:02:40,582 - Attempt by 127.0.0.1: Question='pet', Answer='flag'
+2025-01-11 08:02:40,584 - 127.0.0.1 - - [11/Jan/2025 08:02:40] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:02:40,733 - 127.0.0.1 - - [11/Jan/2025 08:02:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:02:40,763 - 127.0.0.1 - - [11/Jan/2025 08:02:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:02:44,253 - Attempt by 127.0.0.1: Question='pet', Answer='admin'
+2025-01-11 08:02:44,254 - 127.0.0.1 - - [11/Jan/2025 08:02:44] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:02:44,421 - 127.0.0.1 - - [11/Jan/2025 08:02:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:02:44,446 - 127.0.0.1 - - [11/Jan/2025 08:02:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:02:53,739 - Attempt by 127.0.0.1: Question='pet', Answer='hidden'
+2025-01-11 08:02:53,741 - 127.0.0.1 - - [11/Jan/2025 08:02:53] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:02:53,899 - 127.0.0.1 - - [11/Jan/2025 08:02:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:02:53,918 - 127.0.0.1 - - [11/Jan/2025 08:02:53] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:03:01,223 - 127.0.0.1 - - [11/Jan/2025 08:03:01] "[33mGET /reset/hidden HTTP/1.1[0m" 404 -
+2025-01-11 08:03:12,064 - 127.0.0.1 - - [11/Jan/2025 08:03:12] "GET /admin HTTP/1.1" 200 -
+2025-01-11 08:03:16,413 - 127.0.0.1 - - [11/Jan/2025 08:03:16] "GET /login HTTP/1.1" 200 -
+2025-01-11 08:03:16,567 - 127.0.0.1 - - [11/Jan/2025 08:03:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:03:16,620 - 127.0.0.1 - - [11/Jan/2025 08:03:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:03:24,432 - 127.0.0.1 - - [11/Jan/2025 08:03:24] "[33mGET /login/hidden HTTP/1.1[0m" 404 -
+2025-01-11 08:04:05,854 - Attempt by 127.0.0.1: Question='pet', Answer='admin'
+2025-01-11 08:04:05,855 - 127.0.0.1 - - [11/Jan/2025 08:04:05] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:04:06,019 - 127.0.0.1 - - [11/Jan/2025 08:04:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:04:06,076 - 127.0.0.1 - - [11/Jan/2025 08:04:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:04:09,172 - Attempt by 127.0.0.1: Question='pet', Answer='an'
+2025-01-11 08:04:09,173 - 127.0.0.1 - - [11/Jan/2025 08:04:09] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:04:09,332 - 127.0.0.1 - - [11/Jan/2025 08:04:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:04:09,393 - 127.0.0.1 - - [11/Jan/2025 08:04:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:05:25,881 - 127.0.0.1 - - [11/Jan/2025 08:05:25] "[33mGET /.htaccess HTTP/1.1[0m" 404 -
+2025-01-11 08:06:57,468 - 127.0.0.1 - - [11/Jan/2025 08:06:57] "GET / HTTP/1.1" 200 -
+2025-01-11 08:06:57,665 - 127.0.0.1 - - [11/Jan/2025 08:06:57] "GET /static/Iconlight.png HTTP/1.1" 200 -
+2025-01-11 08:06:57,671 - 127.0.0.1 - - [11/Jan/2025 08:06:57] "GET /static/css/styles2.css HTTP/1.1" 200 -
+2025-01-11 08:06:57,778 - 127.0.0.1 - - [11/Jan/2025 08:06:57] "GET /static/js/my.js HTTP/1.1" 200 -
+2025-01-11 08:06:57,854 - 127.0.0.1 - - [11/Jan/2025 08:06:57] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 08:07:04,272 - 127.0.0.1 - - [11/Jan/2025 08:07:04] "GET /login HTTP/1.1" 200 -
+2025-01-11 08:07:04,473 - 127.0.0.1 - - [11/Jan/2025 08:07:04] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-11 08:07:04,572 - 127.0.0.1 - - [11/Jan/2025 08:07:04] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-01-11 08:07:05,981 - 127.0.0.1 - - [11/Jan/2025 08:07:05] "GET /reset HTTP/1.1" 200 -
+2025-01-11 08:07:06,155 - 127.0.0.1 - - [11/Jan/2025 08:07:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:07:06,294 - 127.0.0.1 - - [11/Jan/2025 08:07:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:18:13,754 - 127.0.0.1 - - [11/Jan/2025 08:18:13] "GET /reset HTTP/1.1" 200 -
+2025-01-11 08:18:13,757 - Attempt by 127.0.0.1: Question='color', Answer='ss'
+2025-01-11 08:18:13,759 - Attempt by 127.0.0.1: Question='pet', Answer='ss'
+2025-01-11 08:18:13,762 - 127.0.0.1 - - [11/Jan/2025 08:18:13] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:18:13,763 - 127.0.0.1 - - [11/Jan/2025 08:18:13] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:18:13,972 - 127.0.0.1 - - [11/Jan/2025 08:18:13] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-11 08:18:15,192 - 127.0.0.1 - - [11/Jan/2025 08:18:15] "GET /reset HTTP/1.1" 200 -
+2025-01-11 08:18:15,350 - 127.0.0.1 - - [11/Jan/2025 08:18:15] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-11 08:18:23,310 - 127.0.0.1 - - [11/Jan/2025 08:18:23] "GET /admin HTTP/1.1" 200 -
+2025-01-11 08:18:30,825 - 127.0.0.1 - - [11/Jan/2025 08:18:30] "GET /login HTTP/1.1" 200 -
+2025-01-11 08:18:31,002 - 127.0.0.1 - - [11/Jan/2025 08:18:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:18:31,123 - 127.0.0.1 - - [11/Jan/2025 08:18:31] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-01-11 08:18:37,978 - 127.0.0.1 - - [11/Jan/2025 08:18:37] "GET /reset HTTP/1.1" 200 -
+2025-01-11 08:18:38,226 - 127.0.0.1 - - [11/Jan/2025 08:18:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:18:38,231 - 127.0.0.1 - - [11/Jan/2025 08:18:38] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:18:47,583 - Attempt by 127.0.0.1: Question='color', Answer='ff'
+2025-01-11 08:18:47,584 - 127.0.0.1 - - [11/Jan/2025 08:18:47] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:18:47,750 - 127.0.0.1 - - [11/Jan/2025 08:18:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:18:47,807 - 127.0.0.1 - - [11/Jan/2025 08:18:47] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:21:00,984 - 127.0.0.1 - - [11/Jan/2025 08:21:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:21:07,838 - 127.0.0.1 - - [11/Jan/2025 08:21:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:21:17,277 - 127.0.0.1 - - [11/Jan/2025 08:21:17] "GET /login HTTP/1.1" 200 -
+2025-01-11 08:21:17,420 - 127.0.0.1 - - [11/Jan/2025 08:21:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:21:17,473 - 127.0.0.1 - - [11/Jan/2025 08:21:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:25:17,213 - 127.0.0.1 - - [11/Jan/2025 08:25:17] "GET / HTTP/1.1" 200 -
+2025-01-11 08:25:17,693 - 127.0.0.1 - - [11/Jan/2025 08:25:17] "GET /static/css/styles2.css HTTP/1.1" 200 -
+2025-01-11 08:25:17,738 - 127.0.0.1 - - [11/Jan/2025 08:25:17] "GET /static/Iconlight.png HTTP/1.1" 200 -
+2025-01-11 08:25:17,768 - 127.0.0.1 - - [11/Jan/2025 08:25:17] "GET /static/js/my.js HTTP/1.1" 200 -
+2025-01-11 08:25:18,202 - 127.0.0.1 - - [11/Jan/2025 08:25:18] "[33mGET /static/css/Icon.svg HTTP/1.1[0m" 404 -
+2025-01-11 08:25:18,342 - 127.0.0.1 - - [11/Jan/2025 08:25:18] "GET /static/js/my.js HTTP/1.1" 200 -
+2025-01-11 08:25:18,936 - 127.0.0.1 - - [11/Jan/2025 08:25:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-11 08:25:45,270 - 127.0.0.1 - - [11/Jan/2025 08:25:45] "GET /robots.txt HTTP/1.1" 200 -
+2025-01-11 08:26:06,116 - 127.0.0.1 - - [11/Jan/2025 08:26:06] "[33mGET /login.txt HTTP/1.1[0m" 404 -
+2025-01-11 08:26:09,480 - 127.0.0.1 - - [11/Jan/2025 08:26:09] "GET /login HTTP/1.1" 200 -
+2025-01-11 08:26:09,850 - 127.0.0.1 - - [11/Jan/2025 08:26:09] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-11 08:26:09,910 - 127.0.0.1 - - [11/Jan/2025 08:26:09] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-01-11 08:26:10,082 - 127.0.0.1 - - [11/Jan/2025 08:26:10] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-01-11 08:26:13,700 - 127.0.0.1 - - [11/Jan/2025 08:26:13] "GET /reset HTTP/1.1" 200 -
+2025-01-11 08:26:14,210 - 127.0.0.1 - - [11/Jan/2025 08:26:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:26:14,257 - 127.0.0.1 - - [11/Jan/2025 08:26:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:26:14,485 - 127.0.0.1 - - [11/Jan/2025 08:26:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:28:46,998 - Attempt by 127.0.0.1: Question='color', Answer='aa'
+2025-01-11 08:28:47,001 - 127.0.0.1 - - [11/Jan/2025 08:28:47] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:28:48,204 - 127.0.0.1 - - [11/Jan/2025 08:28:48] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-11 08:28:48,251 - 127.0.0.1 - - [11/Jan/2025 08:28:48] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-01-11 08:28:49,040 - 127.0.0.1 - - [11/Jan/2025 08:28:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-11 08:28:49,405 - 127.0.0.1 - - [11/Jan/2025 08:28:49] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-01-11 08:29:27,651 - Attempt by 127.0.0.1: Question='color', Answer='aa'
+2025-01-11 08:29:27,653 - 127.0.0.1 - - [11/Jan/2025 08:29:27] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:27,943 - Attempt by 127.0.0.1: Question='color', Answer='alizarin'
+2025-01-11 08:29:27,944 - 127.0.0.1 - - [11/Jan/2025 08:29:27] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:28,222 - Attempt by 127.0.0.1: Question='color', Answer='amaranth'
+2025-01-11 08:29:28,223 - 127.0.0.1 - - [11/Jan/2025 08:29:28] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:28,595 - Attempt by 127.0.0.1: Question='color', Answer='amber'
+2025-01-11 08:29:28,595 - 127.0.0.1 - - [11/Jan/2025 08:29:28] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:29,001 - Attempt by 127.0.0.1: Question='color', Answer='amethyst'
+2025-01-11 08:29:29,002 - 127.0.0.1 - - [11/Jan/2025 08:29:29] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:29,593 - Attempt by 127.0.0.1: Question='color', Answer='apricot'
+2025-01-11 08:29:29,594 - 127.0.0.1 - - [11/Jan/2025 08:29:29] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:30,165 - Attempt by 127.0.0.1: Question='color', Answer='aqua'
+2025-01-11 08:29:30,166 - 127.0.0.1 - - [11/Jan/2025 08:29:30] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:30,684 - Attempt by 127.0.0.1: Question='color', Answer='aquamarine'
+2025-01-11 08:29:30,685 - 127.0.0.1 - - [11/Jan/2025 08:29:30] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:31,256 - Attempt by 127.0.0.1: Question='color', Answer='asparagus'
+2025-01-11 08:29:31,256 - 127.0.0.1 - - [11/Jan/2025 08:29:31] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:31,950 - Attempt by 127.0.0.1: Question='color', Answer='auburn'
+2025-01-11 08:29:31,950 - 127.0.0.1 - - [11/Jan/2025 08:29:31] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:32,708 - Attempt by 127.0.0.1: Question='color', Answer='azure'
+2025-01-11 08:29:32,709 - 127.0.0.1 - - [11/Jan/2025 08:29:32] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:33,519 - Attempt by 127.0.0.1: Question='color', Answer='beige'
+2025-01-11 08:29:33,520 - 127.0.0.1 - - [11/Jan/2025 08:29:33] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:34,369 - Attempt by 127.0.0.1: Question='color', Answer='bistre'
+2025-01-11 08:29:34,369 - 127.0.0.1 - - [11/Jan/2025 08:29:34] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:35,270 - Attempt by 127.0.0.1: Question='color', Answer='black'
+2025-01-11 08:29:35,271 - 127.0.0.1 - - [11/Jan/2025 08:29:35] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:36,234 - Attempt by 127.0.0.1: Question='color', Answer='blue'
+2025-01-11 08:29:36,235 - 127.0.0.1 - - [11/Jan/2025 08:29:36] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:37,220 - Attempt by 127.0.0.1: Question='color', Answer='blue-green'
+2025-01-11 08:29:37,222 - 127.0.0.1 - - [11/Jan/2025 08:29:37] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:38,340 - Attempt by 127.0.0.1: Question='color', Answer='blue-violet'
+2025-01-11 08:29:38,341 - 127.0.0.1 - - [11/Jan/2025 08:29:38] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:39,368 - Attempt by 127.0.0.1: Question='color', Answer='bondi-blue'
+2025-01-11 08:29:39,368 - 127.0.0.1 - - [11/Jan/2025 08:29:39] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:40,510 - Attempt by 127.0.0.1: Question='color', Answer='brass'
+2025-01-11 08:29:40,511 - 127.0.0.1 - - [11/Jan/2025 08:29:40] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:41,700 - Attempt by 127.0.0.1: Question='color', Answer='bronze'
+2025-01-11 08:29:41,701 - 127.0.0.1 - - [11/Jan/2025 08:29:41] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:29:42,955 - Attempt by 127.0.0.1: Question='color', Answer='brown'
+2025-01-11 08:29:42,957 - 127.0.0.1 - - [11/Jan/2025 08:29:42] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:01,399 - Attempt by 127.0.0.1: Question='color', Answer='aa'
+2025-01-11 08:30:01,400 - 127.0.0.1 - - [11/Jan/2025 08:30:01] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:18,759 - Attempt by 127.0.0.1: Question='color', Answer='aa'
+2025-01-11 08:30:18,762 - 127.0.0.1 - - [11/Jan/2025 08:30:18] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:19,085 - Attempt by 127.0.0.1: Question='color', Answer='alizarin'
+2025-01-11 08:30:19,085 - 127.0.0.1 - - [11/Jan/2025 08:30:19] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:19,438 - Attempt by 127.0.0.1: Question='color', Answer='amaranth'
+2025-01-11 08:30:19,438 - 127.0.0.1 - - [11/Jan/2025 08:30:19] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:19,780 - Attempt by 127.0.0.1: Question='color', Answer='amber'
+2025-01-11 08:30:19,781 - 127.0.0.1 - - [11/Jan/2025 08:30:19] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:20,170 - Attempt by 127.0.0.1: Question='color', Answer='amethyst'
+2025-01-11 08:30:20,170 - 127.0.0.1 - - [11/Jan/2025 08:30:20] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:20,586 - Attempt by 127.0.0.1: Question='color', Answer='apricot'
+2025-01-11 08:30:20,587 - 127.0.0.1 - - [11/Jan/2025 08:30:20] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:21,029 - Attempt by 127.0.0.1: Question='color', Answer='aqua'
+2025-01-11 08:30:21,030 - 127.0.0.1 - - [11/Jan/2025 08:30:21] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:21,519 - Attempt by 127.0.0.1: Question='color', Answer='aquamarine'
+2025-01-11 08:30:21,520 - 127.0.0.1 - - [11/Jan/2025 08:30:21] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:22,034 - Attempt by 127.0.0.1: Question='color', Answer='asparagus'
+2025-01-11 08:30:22,034 - 127.0.0.1 - - [11/Jan/2025 08:30:22] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:22,602 - Attempt by 127.0.0.1: Question='color', Answer='auburn'
+2025-01-11 08:30:22,602 - 127.0.0.1 - - [11/Jan/2025 08:30:22] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:23,299 - Attempt by 127.0.0.1: Question='color', Answer='azure'
+2025-01-11 08:30:23,300 - 127.0.0.1 - - [11/Jan/2025 08:30:23] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:23,930 - Attempt by 127.0.0.1: Question='color', Answer='beige'
+2025-01-11 08:30:23,931 - 127.0.0.1 - - [11/Jan/2025 08:30:23] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:24,603 - Attempt by 127.0.0.1: Question='color', Answer='bistre'
+2025-01-11 08:30:24,603 - 127.0.0.1 - - [11/Jan/2025 08:30:24] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:25,324 - Attempt by 127.0.0.1: Question='color', Answer='black'
+2025-01-11 08:30:25,325 - 127.0.0.1 - - [11/Jan/2025 08:30:25] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:26,065 - Attempt by 127.0.0.1: Question='color', Answer='blue'
+2025-01-11 08:30:26,066 - 127.0.0.1 - - [11/Jan/2025 08:30:26] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:26,846 - Attempt by 127.0.0.1: Question='color', Answer='blue-green'
+2025-01-11 08:30:26,847 - 127.0.0.1 - - [11/Jan/2025 08:30:26] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:27,662 - Attempt by 127.0.0.1: Question='color', Answer='blue-violet'
+2025-01-11 08:30:27,663 - 127.0.0.1 - - [11/Jan/2025 08:30:27] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:28,659 - Attempt by 127.0.0.1: Question='color', Answer='bondi-blue'
+2025-01-11 08:30:28,660 - 127.0.0.1 - - [11/Jan/2025 08:30:28] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:29,703 - Attempt by 127.0.0.1: Question='color', Answer='brass'
+2025-01-11 08:30:29,704 - 127.0.0.1 - - [11/Jan/2025 08:30:29] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:30,829 - Attempt by 127.0.0.1: Question='color', Answer='bronze'
+2025-01-11 08:30:30,829 - 127.0.0.1 - - [11/Jan/2025 08:30:30] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:32,125 - Attempt by 127.0.0.1: Question='color', Answer='brown'
+2025-01-11 08:30:32,126 - 127.0.0.1 - - [11/Jan/2025 08:30:32] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:33,325 - Attempt by 127.0.0.1: Question='color', Answer='buff'
+2025-01-11 08:30:33,326 - 127.0.0.1 - - [11/Jan/2025 08:30:33] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:34,584 - Attempt by 127.0.0.1: Question='color', Answer='burgundy'
+2025-01-11 08:30:34,585 - 127.0.0.1 - - [11/Jan/2025 08:30:34] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:35,883 - Attempt by 127.0.0.1: Question='color', Answer='camouflage-green'
+2025-01-11 08:30:35,885 - 127.0.0.1 - - [11/Jan/2025 08:30:35] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:37,237 - Attempt by 127.0.0.1: Question='color', Answer='caput-mortuum'
+2025-01-11 08:30:37,238 - 127.0.0.1 - - [11/Jan/2025 08:30:37] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:38,634 - Attempt by 127.0.0.1: Question='color', Answer='cardinal'
+2025-01-11 08:30:38,635 - 127.0.0.1 - - [11/Jan/2025 08:30:38] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:40,070 - Attempt by 127.0.0.1: Question='color', Answer='carmine'
+2025-01-11 08:30:40,070 - 127.0.0.1 - - [11/Jan/2025 08:30:40] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:41,562 - Attempt by 127.0.0.1: Question='color', Answer='carrot-orange'
+2025-01-11 08:30:41,563 - 127.0.0.1 - - [11/Jan/2025 08:30:41] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:43,105 - Attempt by 127.0.0.1: Question='color', Answer='celadon'
+2025-01-11 08:30:43,106 - 127.0.0.1 - - [11/Jan/2025 08:30:43] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:44,466 - Attempt by 127.0.0.1: Question='color', Answer='cerise'
+2025-01-11 08:30:44,467 - 127.0.0.1 - - [11/Jan/2025 08:30:44] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:45,866 - Attempt by 127.0.0.1: Question='color', Answer='cerulean'
+2025-01-11 08:30:45,866 - 127.0.0.1 - - [11/Jan/2025 08:30:45] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:47,537 - Attempt by 127.0.0.1: Question='color', Answer='champagne'
+2025-01-11 08:30:47,538 - 127.0.0.1 - - [11/Jan/2025 08:30:47] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:49,016 - Attempt by 127.0.0.1: Question='color', Answer='charcoal'
+2025-01-11 08:30:49,017 - 127.0.0.1 - - [11/Jan/2025 08:30:49] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:50,550 - Attempt by 127.0.0.1: Question='color', Answer='chartreuse'
+2025-01-11 08:30:50,551 - 127.0.0.1 - - [11/Jan/2025 08:30:50] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:52,440 - Attempt by 127.0.0.1: Question='color', Answer='cherry-blossom-pink'
+2025-01-11 08:30:52,441 - 127.0.0.1 - - [11/Jan/2025 08:30:52] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:53,760 - Attempt by 127.0.0.1: Question='color', Answer='chestnut'
+2025-01-11 08:30:53,761 - 127.0.0.1 - - [11/Jan/2025 08:30:53] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:55,106 - Attempt by 127.0.0.1: Question='color', Answer='chocolate'
+2025-01-11 08:30:55,107 - 127.0.0.1 - - [11/Jan/2025 08:30:55] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:56,472 - Attempt by 127.0.0.1: Question='color', Answer='cinnabar'
+2025-01-11 08:30:56,473 - 127.0.0.1 - - [11/Jan/2025 08:30:56] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:57,864 - Attempt by 127.0.0.1: Question='color', Answer='cinnamon'
+2025-01-11 08:30:57,865 - 127.0.0.1 - - [11/Jan/2025 08:30:57] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:30:59,577 - Attempt by 127.0.0.1: Question='color', Answer='cobalt'
+2025-01-11 08:30:59,578 - 127.0.0.1 - - [11/Jan/2025 08:30:59] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:01,616 - Attempt by 127.0.0.1: Question='color', Answer='copper'
+2025-01-11 08:31:01,617 - 127.0.0.1 - - [11/Jan/2025 08:31:01] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:03,414 - Attempt by 127.0.0.1: Question='color', Answer='coral'
+2025-01-11 08:31:03,415 - 127.0.0.1 - - [11/Jan/2025 08:31:03] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:05,233 - Attempt by 127.0.0.1: Question='color', Answer='corn'
+2025-01-11 08:31:05,234 - 127.0.0.1 - - [11/Jan/2025 08:31:05] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:07,106 - Attempt by 127.0.0.1: Question='color', Answer='cornflower'
+2025-01-11 08:31:07,107 - 127.0.0.1 - - [11/Jan/2025 08:31:07] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:08,990 - Attempt by 127.0.0.1: Question='color', Answer='cream'
+2025-01-11 08:31:08,990 - 127.0.0.1 - - [11/Jan/2025 08:31:08] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:10,913 - Attempt by 127.0.0.1: Question='color', Answer='crimson'
+2025-01-11 08:31:10,914 - 127.0.0.1 - - [11/Jan/2025 08:31:10] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:12,893 - Attempt by 127.0.0.1: Question='color', Answer='cyan'
+2025-01-11 08:31:12,893 - 127.0.0.1 - - [11/Jan/2025 08:31:12] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:14,897 - Attempt by 127.0.0.1: Question='color', Answer='dandelion'
+2025-01-11 08:31:14,898 - 127.0.0.1 - - [11/Jan/2025 08:31:14] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:16,943 - Attempt by 127.0.0.1: Question='color', Answer='denim'
+2025-01-11 08:31:16,944 - 127.0.0.1 - - [11/Jan/2025 08:31:16] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:19,010 - Attempt by 127.0.0.1: Question='color', Answer='ecru'
+2025-01-11 08:31:19,011 - 127.0.0.1 - - [11/Jan/2025 08:31:19] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:21,477 - Attempt by 127.0.0.1: Question='color', Answer='emerald'
+2025-01-11 08:31:21,478 - 127.0.0.1 - - [11/Jan/2025 08:31:21] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:23,664 - Attempt by 127.0.0.1: Question='color', Answer='eggplant'
+2025-01-11 08:31:23,665 - 127.0.0.1 - - [11/Jan/2025 08:31:23] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:25,821 - Attempt by 127.0.0.1: Question='color', Answer='falu-red'
+2025-01-11 08:31:25,821 - 127.0.0.1 - - [11/Jan/2025 08:31:25] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:28,054 - Attempt by 127.0.0.1: Question='color', Answer='fern-green'
+2025-01-11 08:31:28,055 - 127.0.0.1 - - [11/Jan/2025 08:31:28] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:30,335 - Attempt by 127.0.0.1: Question='color', Answer='firebrick'
+2025-01-11 08:31:30,336 - 127.0.0.1 - - [11/Jan/2025 08:31:30] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:32,634 - Attempt by 127.0.0.1: Question='color', Answer='flax'
+2025-01-11 08:31:32,634 - 127.0.0.1 - - [11/Jan/2025 08:31:32] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:34,984 - Attempt by 127.0.0.1: Question='color', Answer='forest-green'
+2025-01-11 08:31:34,985 - 127.0.0.1 - - [11/Jan/2025 08:31:34] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:37,343 - Attempt by 127.0.0.1: Question='color', Answer='french-rose'
+2025-01-11 08:31:37,344 - 127.0.0.1 - - [11/Jan/2025 08:31:37] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:39,767 - Attempt by 127.0.0.1: Question='color', Answer='fuchsia'
+2025-01-11 08:31:39,768 - 127.0.0.1 - - [11/Jan/2025 08:31:39] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:42,198 - Attempt by 127.0.0.1: Question='color', Answer='gamboge'
+2025-01-11 08:31:42,200 - 127.0.0.1 - - [11/Jan/2025 08:31:42] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:31:44,805 - Attempt by 127.0.0.1: Question='color', Answer='gold'
+2025-01-11 08:31:44,806 - 127.0.0.1 - - [11/Jan/2025 08:31:44] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:32:06,489 - Attempt by 127.0.0.1: Question='color', Answer='aa'
+2025-01-11 08:32:06,491 - 127.0.0.1 - - [11/Jan/2025 08:32:06] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:32:06,989 - 127.0.0.1 - - [11/Jan/2025 08:32:06] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-11 08:32:07,046 - 127.0.0.1 - - [11/Jan/2025 08:32:07] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-01-11 08:32:07,240 - 127.0.0.1 - - [11/Jan/2025 08:32:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-11 08:32:07,595 - 127.0.0.1 - - [11/Jan/2025 08:32:07] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-01-11 08:33:10,593 - Attempt by 127.0.0.1: Question='pet', Answer='cerulean'
+2025-01-11 08:33:10,595 - 127.0.0.1 - - [11/Jan/2025 08:33:10] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:33:11,062 - 127.0.0.1 - - [11/Jan/2025 08:33:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:33:11,094 - 127.0.0.1 - - [11/Jan/2025 08:33:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:33:11,333 - 127.0.0.1 - - [11/Jan/2025 08:33:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:33:42,532 - Attempt by 127.0.0.1: Question='pet', Answer='cerulean'
+2025-01-11 08:33:42,533 - 127.0.0.1 - - [11/Jan/2025 08:33:42] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:33:42,849 - 127.0.0.1 - - [11/Jan/2025 08:33:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:33:42,922 - 127.0.0.1 - - [11/Jan/2025 08:33:42] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:33:43,167 - 127.0.0.1 - - [11/Jan/2025 08:33:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:33:49,484 - Attempt by 127.0.0.1: Question='color', Answer='cerulean'
+2025-01-11 08:33:49,484 - 127.0.0.1 - - [11/Jan/2025 08:33:49] "POST /reset HTTP/1.1" 200 -
+2025-01-11 08:33:49,755 - 127.0.0.1 - - [11/Jan/2025 08:33:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:33:49,798 - 127.0.0.1 - - [11/Jan/2025 08:33:49] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:33:50,057 - 127.0.0.1 - - [11/Jan/2025 08:33:50] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:33:54,206 - 127.0.0.1 - - [11/Jan/2025 08:33:54] "GET /login HTTP/1.1" 200 -
+2025-01-11 08:33:54,563 - 127.0.0.1 - - [11/Jan/2025 08:33:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-11 08:33:54,614 - 127.0.0.1 - - [11/Jan/2025 08:33:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-01-11 08:33:54,862 - 127.0.0.1 - - [11/Jan/2025 08:33:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -

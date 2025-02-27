@@ -1,0 +1,7 @@
+<p>User-agent: *</p>
+<p>Disallow: /admin</p>
+<p>Disallow: /secret</p>
+<p>Disallow: /flag</p></p>
+<p></p>
+<p># The flag is hidden somewhere safe.</p>
+<p># Try looking in /hidden or /login.</p>
