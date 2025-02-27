@@ -112,4 +112,4 @@ def ratelimit_handler(e):
     return render_template("index.html", error="Too many login attempts. Please try again in 1 minute."), 429
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=8080)  # Run on port 8080
