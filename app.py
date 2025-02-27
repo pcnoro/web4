@@ -1,17 +1,22 @@
-from flask import Flask, render_template, request, redirect, url_for, send_from_directory
-import logging
-from datetime import datetime
-import random 
+from flask import Flask, render_template, request, redirect, url_for
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
+import redis
+import logging
+from datetime import datetime
+import random
+import os
 
 app = Flask(__name__)
 
+# Initialize Redis connection for Flask-Limiter
+redis_client = redis.Redis(host='localhost', port=6379, db=0)
 
-# Initialize Flask-Limiter
+# Initialize Flask-Limiter with Redis as the storage backend
 limiter = Limiter(
     app=app,
     key_func=get_remote_address,  # Rate limit by IP address
+    storage_uri="redis://localhost:6379",  # Use Redis for persistent rate limiting
     default_limits=["2000 per day", "500 per hour"]  # Global rate limits
 )
 
@@ -21,8 +26,8 @@ USER_DATA = {
     "password": "supersecurepassword&&&",
     "security_questions": {
         "color": "cerulean",  # Correct answer for "What color is your mother like?"
-        "pet": "doggggggggggdoggggggg=)=)",     # Correct answer for "What is the name of your first pet?"
-        "city": "parisssssssssssssspiiiop=)=)"   # Correct answer for "In which city were you born?"
+        "pet": "doggggggggggdoggggggg=)=)",  # Correct answer for "What is the name of your first pet?"
+        "city": "parisssssssssssssspiiiop=)=)"  # Correct answer for "In which city were you born?"
     }
 }
 
@@ -48,7 +53,7 @@ logging.basicConfig(filename="security_attempts.log", level=logging.INFO, format
 incorrect_attempts = 0
 
 
-# Home page with password generator
+# Home page
 @app.route("/")
 def home():
     return render_template("home.html")
@@ -59,21 +64,26 @@ def home():
 def robots():
     return render_template("robots.txt")
 
+
 # Fake routes to mislead participants
 @app.route("/admin")
 def admin():
     return "Nothing to see here. <a href='/'>Go back</a>"
 
+
 @app.route("/secret")
 def secret():
     return "This is not the secret you're looking for. <a href='/'>Go back</a>"
+
 
 @app.route("/flag")
 def fake_flag():
     return "Nope, the flag isn't here. <a href='/'>Go back</a>"
 
+
+# Login route with rate limiting
 @app.route("/login", methods=["GET", "POST"])
-@limiter.limit("20 per minute") 
+@limiter.limit("20 per minute")
 def login():
     if request.method == "POST":
         username = request.form.get("username")
@@ -84,6 +94,8 @@ def login():
             return render_template("index.html", error="Invalid credentials. Please try again.")
     return render_template("index.html")
 
+
+# Password reset route
 @app.route("/reset", methods=["GET", "POST"])
 def reset_password():
     global incorrect_attempts
@@ -95,21 +107,26 @@ def reset_password():
         # Log the attempt
         logging.info(f"Attempt by {request.remote_addr}: Question='{question}', Answer='{answer}'")
 
-        if answer.lower() == USER_DATA["security_questions"].get(question):
+        # Validate the answer
+        if answer and question and answer.lower() == USER_DATA["security_questions"].get(question):
             return render_template("index.html", flag=FLAG)
         else:
             incorrect_attempts += 1
             if incorrect_attempts >= 3:  # Display fake flag after 3 incorrect attempts
                 fake_flag = random.choice(FAKE_FLAGS)
-                return render_template("index.html", reset=True, reset_error="Incorrect answer. Here's your flag: " + fake_flag)
+                return render_template("index.html", reset=True, reset_error=f"Incorrect answer. Here's your flag: {fake_flag}")
             else:
                 return render_template("index.html", reset=True, reset_error="Incorrect answer. Please try again.")
     return render_template("index.html", reset=True)
+
 
 # Error handler for rate limit exceeded
 @app.errorhandler(429)
 def ratelimit_handler(e):
     return render_template("index.html", error="Too many login attempts. Please try again in 1 minute."), 429
 
+
+# Run the application
 if __name__ == "__main__":
-    app.run(debug=True, port=8080)  # Run on port 8080
+    port = int(os.environ.get("PORT", 8080))  # Use Render's PORT or default to 8080
+    app.run(debug=False, host="0.0.0.0", port=port)  # Disable debug mode in production
